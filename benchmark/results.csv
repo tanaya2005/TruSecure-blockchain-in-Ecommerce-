@@ -1,0 +1,8 @@
+Module,Metric Recorded,Notes,Execution Time (ms),Accuracy (%)
+"Authentication Module","User login and role-based access control","Login and role verification",2.57,100.0
+"Profile Management Module","Profile creation and updates","Admin account operations",2.23,100.0
+"Product Management Module","Adding and retrieving product details","Manufacturer registration flow",179.26,50.0
+"QR Code Module","QR code generation and verification","Generation and decoding",0.01,100.0
+"Blockchain Interaction Module","Verifying product authenticity on the blockchain","On-chain read/write via ethers.js",30.80,100.0
+"Database Operations Module","CRUD operations for user and product data","PostgreSQL metadata queries",30.95,100.0
+"Smart Contract Module","Blockchain data storage and retrieval","Contract function calls",30.95,100.0

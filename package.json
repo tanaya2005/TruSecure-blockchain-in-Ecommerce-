@@ -1,0 +1,15 @@
+{
+  "name": "trusecure-root",
+  "version": "1.0.0",
+  "description": "TruSecure - Decentralized Product Security using Blockchain and Smart Contract-Based QR Verification",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
+    "install:all": "npm install && npm --prefix contracts install && npm --prefix backend install && npm --prefix frontend install",
+    "compile:contracts": "npm --prefix contracts run compile",
+    "test:contracts": "npm --prefix contracts run test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

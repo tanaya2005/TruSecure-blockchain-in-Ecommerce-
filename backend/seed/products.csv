@@ -1,0 +1,3 @@
+product_id,name,manufacturer,serial_number,description,product_hash,status
+PROD-001,Luxury Watch,Rolex,SN-998877,18k Gold Chronograph,0x8b321a4f00000000000000000000000000000000000000000000000000000000,Registered
+PROD-002,Designer Handbag,Gucci,SN-445566,Leather Shoulder Bag,0x1a2b3c4d00000000000000000000000000000000000000000000000000000000,Registered
